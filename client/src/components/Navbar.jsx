@@ -29,12 +29,6 @@ export default function Navbar({ currentPage, onNavigate }) {
               My Results
             </button>
           )}
-          <button
-            onClick={() => onNavigate('jobs')}
-            className="nav-cta"
-          >
-            Find Jobs
-          </button>
         </div>
       </div>
     </nav>
